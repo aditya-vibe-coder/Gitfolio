@@ -1,0 +1,22 @@
+name = "gitfolio-workers"
+main = "src/index.js"
+compatibility_date = "2024-01-01"
+
+[ai]
+binding = "AI"
+
+[[kv_namespaces]]
+binding = "LICENSES"
+id = "YOUR_LICENSES_KV_ID"
+
+[[kv_namespaces]]
+binding = "LEADERBOARD"
+id = "YOUR_LEADERBOARD_KV_ID"
+
+[[kv_namespaces]]
+binding = "BADGE_CACHE"
+id = "YOUR_BADGE_CACHE_KV_ID"
+
+
+[vars]
+FRONTEND_URL = "https://your-frontend-domain.com"
